@@ -23,7 +23,7 @@
   "description": "Test fixture that has no dependencies",
   "license": "none",
   "recipes": {
-    "api_has_no_dependencies::default": "Do nothing. With style."
+    "api_has_no_dependencies": "An unnamed recipe."
   },
   "groupings": {
   }
