@@ -18,3 +18,8 @@ attribute 'ui_has_nameless_recipe/three',
 	display_name: 'ui_has_nameless_recipe/three',
 	description: 'an attribute that applies to the nameless recipe',
 	recipes: [ 'ui_has_nameless_recipe' ]
+
+attribute 'ui_has_nameless_recipe/fail',
+	display_name: 'ui_has_nameless_recipe/fail',
+	description: 'an attribute that only applies to a non-existent recipe',
+	recipes: [ 'ui_has_nameless_recipe::fail' ]
