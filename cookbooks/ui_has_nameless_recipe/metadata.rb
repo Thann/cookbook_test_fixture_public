@@ -6,20 +6,20 @@ version "1.0.0"
 recipe "ui_has_nameless_recipe", "Do nothing. With style1."
 
 attribute 'ui_has_nameless_recipe/one',
-	display_name: 'ui_has_nameless_recipe/one',
-	description: 'an attribute that applies to all recipes'
+	:display_name => 'ui_has_nameless_recipe/one',
+	:description => 'an attribute that applies to all recipes'
 
 attribute 'ui_has_nameless_recipe/two',
-	display_name: 'ui_has_nameless_recipe::default/two',
-	description: 'an attribute that applies to the ::default recipe',
-	recipes: [ 'ui_has_nameless_recipe::default' ]
+	:display_name => 'ui_has_nameless_recipe::default/two',
+	:description => 'an attribute that applies to the ::default recipe',
+	:recipes => [ 'ui_has_nameless_recipe::default' ]
 
 attribute 'ui_has_nameless_recipe/three',
-	display_name: 'ui_has_nameless_recipe/three',
-	description: 'an attribute that applies to the nameless recipe',
-	recipes: [ 'ui_has_nameless_recipe' ]
+	:display_name => 'ui_has_nameless_recipe/three',
+	:description => 'an attribute that applies to the nameless recipe',
+	:recipes => [ 'ui_has_nameless_recipe' ]
 
 attribute 'ui_has_nameless_recipe/fail',
-	display_name: 'ui_has_nameless_recipe/fail',
-	description: 'an attribute that only applies to a non-existent recipe',
-	recipes: [ 'ui_has_nameless_recipe::fail' ]
+	:display_name => 'ui_has_nameless_recipe/fail',
+	:description => 'an attribute that only applies to a non-existent recipe',
+	:recipes => [ 'ui_has_nameless_recipe::fail' ]
